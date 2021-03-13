@@ -8,10 +8,13 @@ import org.junit.jupiter.api.Assertions;
 import javax.inject.Inject;
 
 @MicronautTest
-class ExemplarTest {
-
+class ExemplarTest
+{
     @Inject
     EmbeddedApplication<?> application;
+
+    @Inject
+    private ParentRepo parentRepo;
 
     @Test
     void testItWorks() {

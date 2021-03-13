@@ -44,8 +44,8 @@ application {
     mainClass.set("org.saltations.Application")
 }
 java {
-    sourceCompatibility = JavaVersion.toVersion("13")
-    targetCompatibility = JavaVersion.toVersion("13")
+    sourceCompatibility = JavaVersion.toVersion("11")
+    targetCompatibility = JavaVersion.toVersion("11")
 }
 
 

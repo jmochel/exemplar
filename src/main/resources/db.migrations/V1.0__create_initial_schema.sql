@@ -1,0 +1,42 @@
+--
+-- Create Parent table
+--
+
+CREATE TABLE tree_ent
+(
+    id IDENTITY,
+
+    first_name VARCHAR(40),
+
+    last_name VARCHAR(40),
+
+    age INT
+);
+
+-- INT
+-- BOOLEAN
+-- TINYINT
+-- SMALLINT
+-- BIGINT
+-- IDENTITY
+-- DECIMAL
+-- DOUBLE
+-- REAL
+-- TIME
+-- TIME WITH TIME ZONE
+-- DATE
+-- TIMESTAMP
+-- TIMESTAMP WITH TIME ZONE
+-- BINARY
+-- OTHER
+-- VARCHAR
+-- VARCHAR_IGNORECASE
+-- CHAR
+-- BLOB
+-- CLOB
+-- UUID
+-- ARRAY
+-- ENUM
+-- GEOMETRY
+-- JSON
+-- INTERVAL
